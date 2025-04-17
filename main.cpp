@@ -7,7 +7,7 @@
 using namespace std;
 
 int main() {
-    ifstream file("../Resource/video_games.csv");  // Ensure the correct file path
+    ifstream file("../Resource/Managerial_and_Decision_Economics_2013_Video_Games_Dataset.csv");  // Ensure the correct file path
     if (!file.is_open()) {
         cerr << "Error: Could not open the file!" << endl;
         return 1;
