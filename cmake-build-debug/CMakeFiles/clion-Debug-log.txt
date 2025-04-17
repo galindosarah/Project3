@@ -1,4 +1,4 @@
-"C:\Program Files\JetBrains\CLion 2023.3.2\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_MAKE_PROGRAM=C:/Program Files/JetBrains/CLion 2023.3.2/bin/ninja/win/x64/ninja.exe" -G Ninja -S C:\Users\cesar\CLionProjects\DSAProject3 -B C:\Users\cesar\CLionProjects\DSAProject3\cmake-build-debug
--- Configuring done (0.7s)
--- Generating done (0.0s)
--- Build files have been written to: C:/Users/cesar/CLionProjects/DSAProject3/cmake-build-debug
+"C:\Program Files\JetBrains\CLion 2024.2.0.1\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -DCMAKE_CXX_COMPILER=C:/mingw/bin/c++.exe -G "MinGW Makefiles" -S C:\Users\celin\OneDrive\Documents\GitHub\Project3 -B C:\Users\celin\OneDrive\Documents\GitHub\Project3\cmake-build-debug
+-- Configuring done (0.2s)
+-- Generating done (0.1s)
+-- Build files have been written to: C:/Users/celin/OneDrive/Documents/GitHub/Project3/cmake-build-debug
