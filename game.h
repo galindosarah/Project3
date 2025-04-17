@@ -1,11 +1,17 @@
 #ifndef DSAPROJECT3_GAME_H
 #define DSAPROJECT3_GAME_H
+#include <iostream>
+#include <fstream>
+#include <sstream>
+#include <vector>
+#include <chrono>
 #include <unordered_map>
 #include <vector>
 using namespace std;
 
 class game {
     private:
+        vector<vector<string>> data;
         unordered_map<string, vector<string>> genreTable; //key: genre, value: list of games
         unordered_map<string, vector<string>> maturityTable; //key: maturity rating, value: list of games
         unordered_map<string, vector<string>> consoleTable; //key: console, value: list of games
