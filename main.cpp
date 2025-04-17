@@ -2,6 +2,7 @@
 #include <fstream>
 #include <sstream>
 #include <vector>
+#include <chrono>
 
 using namespace std;
 
@@ -32,7 +33,7 @@ int main() {
     file.close();
 
     // Print first 5 rows to check
-    for (size_t i = 0; i < min(data.size(), size_t(5)); i++) {
+    for (size_t i = 1; i < min(data.size(), size_t(6)); i++) {
         for (const auto &val : data[i]) {
             cout << val << " | ";
         }

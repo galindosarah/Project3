@@ -55,6 +55,12 @@ build CMakeFiles/DSAProject3.dir/main.cpp.obj: CXX_COMPILER__DSAProject3_unscann
   OBJECT_DIR = CMakeFiles\DSAProject3.dir
   OBJECT_FILE_DIR = CMakeFiles\DSAProject3.dir
 
+build CMakeFiles/DSAProject3.dir/game.cpp.obj: CXX_COMPILER__DSAProject3_unscanned_Debug C$:/Users/cesar/CLionProjects/DSAProject3/game.cpp || cmake_object_order_depends_target_DSAProject3
+  DEP_FILE = CMakeFiles\DSAProject3.dir\game.cpp.obj.d
+  FLAGS = -g -std=gnu++1z -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\DSAProject3.dir
+  OBJECT_FILE_DIR = CMakeFiles\DSAProject3.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target DSAProject3
@@ -63,7 +69,7 @@ build CMakeFiles/DSAProject3.dir/main.cpp.obj: CXX_COMPILER__DSAProject3_unscann
 #############################################
 # Link the executable DSAProject3.exe
 
-build DSAProject3.exe: CXX_EXECUTABLE_LINKER__DSAProject3_Debug CMakeFiles/DSAProject3.dir/main.cpp.obj
+build DSAProject3.exe: CXX_EXECUTABLE_LINKER__DSAProject3_Debug CMakeFiles/DSAProject3.dir/main.cpp.obj CMakeFiles/DSAProject3.dir/game.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\DSAProject3.dir
