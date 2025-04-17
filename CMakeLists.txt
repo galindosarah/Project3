@@ -3,4 +3,6 @@ project(DSAProject3)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(DSAProject3 main.cpp)
+add_executable(DSAProject3 main.cpp
+        gameTable.cpp
+        gameTable.h)
