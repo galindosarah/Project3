@@ -14,7 +14,7 @@ class game {
     public:
         game(string filePath);
         vector<string> getGenre(string genre); //input is key for genreTable
-        vector<string> getMaturity(string maturity);
+        vector<string> getMaturity(string maturity); //input is key for maturityTable
         vector<string> getConsole(string console);
         vector<string> getMultiplayer(string multiplayer);
         vector<string> getScore(string score);
